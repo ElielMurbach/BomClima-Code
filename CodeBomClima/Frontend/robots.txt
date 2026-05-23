@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://bomclimarefrigeracao.com.br/sitemap.xml
