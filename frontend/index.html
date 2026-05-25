@@ -1,0 +1,364 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <!-- Charset sempre primeiro -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- SEO básico -->
+    <title>Bom Clima Refrigeração</title>
+    <meta
+      name="description"
+      content="Especialistas em refrigeração, ar-condicionado e climatização. Instalação, manutenção e assistência técnica."
+    />
+    <meta name="author" content="Bom Clima Refrigeração" />
+    <meta name="robots" content="index, follow" />
+
+    <!-- Open Graph (WhatsApp, Facebook, LinkedIn) -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Bom Clima Refrigeração" />
+    <meta
+      property="og:description"
+      content="Especialistas em refrigeração, ar-condicionado e climatização."
+    />
+    <meta property="og:image" content="https://seusite.com.br/og-image.jpg" />
+    <meta property="og:url" content="https://seusite.com.br" />
+    <meta property="og:locale" content="pt_BR" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+
+    <!-- Segurança -->
+    <meta http-equiv="X-Content-Type-Options" content="nosniff" />
+    <meta http-equiv="X-Frame-Options" content="DENY" />
+    <meta
+      http-equiv="Referrer-Policy"
+      content="strict-origin-when-cross-origin"
+    />
+    <meta
+      http-equiv="Permissions-Policy"
+      content="camera=(), microphone=(), geolocation=()"
+    />
+
+    <!-- CSP corrigida (faltava espaço no original) e com connect-src para fontes -->
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="
+    default-src 'self';
+    img-src 'self' https: data:;
+    style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;
+    font-src https://fonts.gstatic.com;
+    script-src 'self' 'unsafe-inline';
+    frame-src https://www.google.com;
+    connect-src 'self'
+  "
+    />
+
+    <!-- Font com preconnect para carregamento mais rápido -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="global.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container header-content">
+        <div class="brand">
+          <a href="/" aria-label="Ir para pagina inicial">
+            <img
+              src="./assets/Logo2.jpg"
+              alt="Logo Bom Clima Refrigeração"
+              draggable="false"
+              width="60"
+              height="60"
+            />
+          </a>
+        </div>
+        <div class="brand-text">
+          <h1>Bom Clima Refrigeração</h1>
+          <span>Campo Grande - MS</span>
+        </div>
+        <nav class="navbar" aria-label="Menu principal">
+          <a href="#localizacao" aria-label="Ver localização da empresa"
+            >Localização</a
+          >
+          <a
+            href="https://wa.me/5567992785093?text=Olá!%20Vim%20pelo%20site%20e%20gostaria%20de%20um%20atendimento."
+            class="nav-whatsapp"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Falar pelo WhatsApp"
+          >
+            WhatsApp
+          </a>
+        </nav>
+      </div>
+    </header>
+    <section class="hero" aria-label="Apresentação da empresa">
+      <div class="container hero-content">
+        <div class="hero-text">
+          <span class="top-text">Assistência técnica especializada</span>
+          <h2>Conserto Rápido e com <em>Garantia</em> de Qualidade</h2>
+          <p>
+            Atendimento em <strong>Campo Grande - MS</strong> com segurança e
+            eficiência.
+          </p>
+
+          <div class="hero-buttons">
+            <a
+              href="https://wa.me/5567992785093?text=Olá!%20Vim%20pelo%20site%20e%20gostaria%20de%20um%20atendimento."
+              class="btn btn-whatsapp"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Falar com a Bom Clima pelo WhatsApp"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="18"
+                height="18"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+                aria-hidden="true"
+              >
+                <path
+                  d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"
+                />
+              </svg>
+              WhatsApp
+            </a>
+
+            <a
+              href="#servicos"
+              class="btn btn-outline"
+              aria-label="Ver lista de serviços"
+            >
+              Ver Serviços
+            </a>
+          </div>
+        </div>
+
+        <!-- Elemento visual decorativo (opcional) -->
+        <div class="hero-visual" aria-hidden="true">
+          <div class="hero-badge">
+            <span class="badge-number">10+</span>
+            <span class="badge-label">Anos de experiência</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="diferenciais">
+      <div class="container">
+        <div class="section-title">
+          <h2>Por que escolher a Bom Clima?</h2>
+          <p>Atendimento profissional em Campo Grande - MS</p>
+        </div>
+        <div class="cards-diferenciais">
+          <div class="card-diferencial">
+            <div class="card-icon" aria-hidden="true">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="22"
+                height="22"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                <path d="M13 3l0 7l6 0l-8 11l0 -7l-6 0l8 -11" />
+              </svg>
+            </div>
+            <h3>Atendimento Rápido</h3>
+            <p>
+              Atendimento ágil e eficiente para resolver seu problema com
+              segurança.
+            </p>
+            <span class="card-badge">Mesmo dia</span>
+          </div>
+
+          <div class="card-diferencial">
+            <div class="card-icon" aria-hidden="true">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="22"
+                height="22"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                <path
+                  d="M7 10h3v-3l-3.5 -3.5a6 6 0 0 1 8 8l6 6a2 2 0 0 1 -3 3l-6 -6a6 6 0 0 1 -8 -8l3.5 3.5"
+                />
+              </svg>
+            </div>
+            <h3>Técnicos Especializados</h3>
+            <p>Equipe preparada para manutenção, instalação e higienização.</p>
+            <span class="card-badge">Certificados</span>
+          </div>
+
+          <div class="card-diferencial">
+            <div class="card-icon" aria-hidden="true">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="22"
+                height="22"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                <path
+                  d="M11.46 20.846a12 12 0 0 1 -7.96 -14.846a12 12 0 0 0 8.5 -3a12 12 0 0 0 8.5 3a12 12 0 0 1 -.09 7.06"
+                />
+                <path d="M15 19l2 2l4 -4" />
+              </svg>
+            </div>
+            <h3>Qualidade Garantida</h3>
+            <p>Trabalhamos com compromisso e garantia de 6 meses no serviço.</p>
+            <span class="card-badge">6 meses de garantia</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="services" id="servicos">
+      <div class="container">
+        <div class="section-title">
+          <h2>Serviços</h2>
+          <p>Assistência para os principais eletrodomésticos</p>
+        </div>
+        <div class="grid">
+          <a
+            href="https://wa.me/5567992785093?text=Olá!%20Vim%20pelo%20site%20e%20gostaria%20de%20fazer%20um%20orçamento%20de%20Máquina%20de%20Lavar."
+            class="card"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Orçamento de Máquina de Lavar via WhatsApp"
+          >
+            <div class="card-glow"></div>
+            <span class="card-tag">Lavanderia</span>
+            <h3>Máquina de Lavar</h3>
+            <p>Manutenção e higienização completa de máquinas de lavar.</p>
+            <div class="card-cta">
+              Pedir orçamento
+              <svg
+                width="14"
+                height="14"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                aria-hidden="true"
+              >
+                <path d="M5 12h14M12 5l7 7-7 7" />
+              </svg>
+            </div>
+          </a>
+
+          <a
+            href="https://wa.me/5567992785093?text=Olá!%20Vim%20pelo%20site%20e%20gostaria%20de%20fazer%20um%20orçamento%20de%20Lava%20e%20Seca."
+            class="card"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Orçamento de Lava e Seca via WhatsApp"
+          >
+            <div class="card-glow"></div>
+            <span class="card-tag">Lavanderia</span>
+            <h3>Lava e Seca</h3>
+            <p>Manutenção e higienização de lava e secas.</p>
+            <div class="card-cta">
+              Pedir orçamento
+              <svg
+                width="14"
+                height="14"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                aria-hidden="true"
+              >
+                <path d="M5 12h14M12 5l7 7-7 7" />
+              </svg>
+            </div>
+          </a>
+
+          <a
+            href="https://wa.me/5567992785093?text=Olá!%20Vim%20pelo%20site%20e%20gostaria%20de%20fazer%20um%20orçamento%20de%20Ar%20Condicionado."
+            class="card"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Orçamento de Ar Condicionado via WhatsApp"
+          >
+            <div class="card-glow"></div>
+            <span class="card-tag">Climatização</span>
+            <h3>Ar Condicionado</h3>
+            <p>Manutenção, higienização, instalação e peças.</p>
+            <div class="card-cta">
+              Pedir orçamento
+              <svg
+                width="14"
+                height="14"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                aria-hidden="true"
+              >
+                <path d="M5 12h14M12 5l7 7-7 7" />
+              </svg>
+            </div>
+          </a>
+
+          <a
+            href="https://wa.me/5567992785093?text=Olá!%20Vim%20pelo%20site%20e%20gostaria%20de%20fazer%20um%20orçamento%20de%20Geladeira."
+            class="card"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Orçamento de Geladeira via WhatsApp"
+          >
+            <div class="card-glow"></div>
+            <span class="card-tag">Refrigeração</span>
+            <h3>Geladeira</h3>
+            <p>Manutenção e conserto de geladeiras e freezers.</p>
+            <div class="card-cta">
+              Pedir orçamento
+              <svg
+                width="14"
+                height="14"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                aria-hidden="true"
+              >
+                <path d="M5 12h14M12 5l7 7-7 7" />
+              </svg>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
