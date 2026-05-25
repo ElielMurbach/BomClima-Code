@@ -154,16 +154,27 @@ body{
   align-items:center;
   justify-content:center;
   position:relative;
-  background:url("../fotos/background2.jpg") center/cover no-repeat;
+  overflow:hidden;
+}
+
+.hero-video{
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  z-index:-2;
 }
 
 .hero::before{
   content:"";
   position:absolute;
   inset:0;
-  background:rgba(255,255,255,0.82);
-  backdrop-filter:blur(5px);
-  box-shadow:inset 0 120px 80px -70px rgba(1,13,68,0.35),inset 0 -120px 80px -70px rgba(1,13,68,0.35);
+  background:#6b717a94;
+  backdrop-filter:blur(2px);
+  -webkit-backdrop-filter:blur(2px);
+  z-index:-1;
 }
 
 .hero-content{
@@ -468,6 +479,7 @@ body{
   line-height:1.6;
   color:#ddd;
 }
+
 
 .cta h2{
   font-size:42px;
